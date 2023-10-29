@@ -40,3 +40,10 @@ function scrollHeader(){
 
 }
 window.addEventListener('scroll', scrollHeader)
+
+var button = document.getElementById("btn2");
+
+button.addEventListener('click', function() {
+    var card = document.querySelector('.testimonials section');
+    card.classList.toggle('active');
+})
