@@ -121,6 +121,14 @@ a{
     /*color: var(--black-color);*/
     color: (0.47,0.33,0.28,1);
 }
+#section_titli h1{
+    color: var(--black-color); 
+}
+#section_titli span{
+    color: var(--black-color); 
+}
+
+
 /* BUTTON */
 .btn{
     width: 240px;
@@ -428,6 +436,10 @@ a{
     font-size: var(--h1-font-size);
     line-height: var(--h1-font-size);
     color: var(--black-color);
+}
+#card__titli h2{
+    text-align: center;
+    
 }
 .card__items{
     margin-bottom: var(--mb-1);
